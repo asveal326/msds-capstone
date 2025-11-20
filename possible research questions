@@ -1,0 +1,39 @@
+# Research Questions 
+A. Descriptive / Situational Problems
+1.	Where are maternal mortality rates the highest and lowest?
+Identify geographic “hotspots” of high MMR (Maternal Mortality Ratio).
+2.	How have MMRs changed over time (2000–2022)?
+Detect upward or downward trends by region or country/state.
+3.	What is the distribution of MMR across income groups or continents?
+Compare averages among low-, middle-, and high-income countries.
+4.	Which populations or demographic groups face higher risks?
+Examine disparities by race/ethnicity, age, or rural vs. urban.
+
+B. Correlational / Determinant Problems
+5.	Which factors are most correlated with MMR?
+GDP per capita, fertility rate, health expenditure, % skilled birth attendance, education level, etc.
+6.	Does higher healthcare spending reduce MMR?
+Compare countries/states by expenditure quartile and mean MMR.
+7.	What is the relationship between adolescent birth rates and maternal deaths?
+Scatterplot + regression analysis.
+
+C. Predictive / Modelling Problems
+8.	Can we predict future MMR values based on historical data?
+Use time series models (ARIMA, Prophet, etc.).
+9.	Can we classify a country/state as “high risk” vs. “low risk”?
+Train classification models using socioeconomic indicators.
+10.	Can we cluster regions with similar maternal health profiles?
+Apply K-means or hierarchical clustering (as explained earlier).
+
+D. Inequality & Disparity Problems
+11.	How large are racial or ethnic disparities in maternal mortality?
+Compare U.S. groups (e.g., Black, White, Hispanic, Asian).
+12.	Does location (urban/rural) influence MMR when controlling for socioeconomic status?
+Perform stratified or multivariate analysis.
+13.	How does education level or access to prenatal care mediate risk?
+
+E. Policy & Intervention Problems
+14.	Which states/countries improved the most from 2000–2020?
+Identify top performers and analyze what policies coincided.
+15.	If certain interventions increase skilled birth attendance, how much could MMR drop?
+Scenario simulation using regression coefficients or predictive model.
