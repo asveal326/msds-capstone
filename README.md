@@ -4,29 +4,40 @@ Aysia Veal
 Capstone Project
 
 Maternal Mortality: Analysis of trends and determinants of maternal mortality on a regional/global/country specific scale
+
+
 Problem Statement:
 Given slight reductions in maternal mortality rates, it remains a significant global health challenge. These rates continue to be high in many regions, and disparities persist by geography, socioeconomic factors, race/ethnicity, and age. Understanding the trends, identifying key predictors, and forecasting future risk can help inform policy and targeted interventions to encourage further reductions of the mortality rates of mother. 
+
+
 Scope: 
 •	Global analysis 
 or
 •	Country specific
+
+
 Objectives:
 •	Descriptive analysis
 o	Document the temporal trends of maternal mortality ratio (MMR) (deaths per 100,000 live births) for the selected region(s) (global, country, or U.S. states) over the last X years.
 o	Explore differences in maternal mortality by demographic factors (age groups, race/ethnicity, urban vs rural) and by geographic unit (countries, states, regions).
+
 •	Determinants / explanatory modelling
 o	Identify key explanatory variables (socio‐economic, health system coverage, maternal age, parity, access to care, geographic/urbanization, etc) that are associated with higher/lower maternal mortality.
 o	Build regression or machine‐learning models (e.g., linear regression, random forests, gradient boosting) to assess the relative importance of these predictors and possibly estimate the magnitude of their association with maternal mortality.
+
 •	Forecasting / prediction
 o	Develop a predictive model to forecast maternal mortality rates for the next 5–10 years in the selected region(s) under current trends and/or under hypothetical scenarios (e.g., improved access to obstetric care).
 o	Use scenario modelling to estimate how changes in key predictors (e.g., increasing skilled birth attendance, reducing adolescent pregnancies) may influence future maternal mortality.
+
 •	Clustering / segmentation
 o	Using clustering techniques, segment geographic units (countries or states) into groups based on their maternal mortality profiles and underlying factors, to identify patterns of “high‐risk” vs “improving” regions.
 o	Create a data‐driven typology of maternal mortality contexts (e.g., “high MMR & low health system coverage”, “moderate MMR & improving trends”, “low MMR region”), to assist in targeting interventions.
+
 •	Visualization & communication
 o	Develop interactive visualizations (maps, trend charts, dashboards) to communicate maternal mortality risks, trends, and predictor impacts to stakeholders or policy-makers.
 o	Document insights and policy implications: For example, highlight the most impactful levers for reducing maternal mortality (from the model results), and suggest priority regions/populations for intervention.
 Datasets/sources:
+
 •	Maternal mortality ratio (per 100,000 live births)
 o	https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)
 o	Can be world or country specific 
